@@ -1,17 +1,22 @@
+body{
+	margin: 0 auto;
+}
 .jumbotron{
-
-}
-
-
-
-#logueo{
-
-	background-color: red;
+	background-image: url("../img/fondo azul.png");
 	color: white;
-	border: solid black;
 }
-
-#registro{
-	background-color: blue;
-	border: solid black;
+#inicio_sesion{
+	background-color: plum;
+	color: white;
+	background-image: url("../img/fondo_morado.jpg");
+}
+#resgistro{
+	color: white;
+	background-image: url("../img/fondo_gris.jpg");
+}
+#central{
+	margin-top: -35px;
+}
+#validar{
+	height: 58px;
 }
