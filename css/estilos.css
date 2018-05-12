@@ -3,16 +3,24 @@ body{
 }
 .jumbotron{
 	background-image: url("../img/fondo azul.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 }
 #inicio_sesion{
+	text-align: center;
 	background-color: plum;
 	color: white;
-	background-image: url("../img/fondo_morado.jpg");
+	background-image: url("../img/fondo_gris.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 #registro{
+	text-align: center;
 	color: white;
 	background-image: url("../img/fondo_gris.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 #central{
 	margin-top: -35px;
@@ -34,5 +42,10 @@ body{
 	height: 100%;
 	top: 215px;
 	padding-top: 200px;
-	background-image: url("../img/fondo_morado.jpg");
+	background-image: url("../img/fondo_gris.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#boton_inicio{
+
 }

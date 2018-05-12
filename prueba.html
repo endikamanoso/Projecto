@@ -19,9 +19,9 @@
     </div>
     <div id="central" class="container-fluid">
         <div class="row">
-            <div id="inicio_sesion" class="col-md-6 text-center">
+            <div id="inicio_sesion"> <!--class="col-md-6 text-center"-->
                 <br><br><br><br>
-                <h2>Inicia sesión</h2><br>
+                <h2>INICIA SESIÓN</h2><br>
                 <form action="" class="form-group">
                     <input type="text" class="form-control-lg" placeholder="Nombre de usuario o email"><br><br>
                     <input type="password" class="form-control-lg" placeholder="Contraseña"><br><br><br><br><br>
@@ -29,17 +29,18 @@
                     <br><br>
                 </form>
             </div>
-            <div id="registro" class="col-md-6 text-center">
-                <h2>Regístrate aquí</h2><br>
+            <div id="registro"> <!--class="col-md-6 text-center"-->
+                <br><br><br>
+                <h2>REGÍSTRATE AQUÍ</h2><br>
                 <form action="" class="form-group">
-                    <input type="text" class="form-control-lg col-lg-5 col-xs-12" placeholder="Nombre de usuario">
-                    <input type="text" class="form-control-lg col-lg-5 col-lg-5" placeholder="Primer apellido">
-                    <input type="text" class="form-control-lg col-lg-5 col-lg-5" placeholder="Segundo apellido">
-                    <input type="email" class="form-control-lg col-lg-5 col-lg-5 col-lg-5"
-                           placeholder="Correo electrónico">
-                    <input type="text" class="form-control-lg col-lg-5" placeholder="Login">
-                    <input type="password" class="form-control-lg col-lg-5" placeholder="Contraseña"><br><br>
-                    <button id="validar_registro" class="btn btn-lg btn-primary col-lg-5">Validar</button>
+                    <input name="nombre" id="nombre" type="text" class="form-control-lg col-lg-5 col-md-7 col-xs-12" placeholder="Nombre de usuario"><br><br>
+                    <input name="apellido_1" id="apellido_1" type="text" class="form-control-lg col-lg-5 col-md-7 col-xs-12" placeholder="Primer apellido"><br><br>
+                    <input name="apellido_2" id="apellido_2" type="text" class="form-control-lg col-lg-5 col-md-7 col-xs-12" placeholder="Segundo apellido"><br><br>
+                    <input name="email" id="email" type="email" class="form-control-lg col-lg-5 col-md-7 col-xs-12"
+                           placeholder="Correo electrónico"><br><br>
+                    <input name="login" id="login" type="text" class="form-control-lg col-lg-5 col-md-7 col-xs-12" placeholder="Login"><br><br>
+                    <input name="pass" id="pass" type="password" class="form-control-lg col-lg-5 col-md-7 col-xs-12" placeholder="Contraseña"><br><br>
+                    <button id="validar_registro" class="btn btn-lg btn-primary col-lg-5 col-md-7 col-xs-12">Validar</button>
                     <br><br>
                 </form>
             </div>
@@ -56,6 +57,7 @@
         </div>
     </div>
 </div>
+<button id="boton_inicio" class="btn btn-warning">VOLVER</button>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
       integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <script src="js//jquery-3.2.1.js"></script>

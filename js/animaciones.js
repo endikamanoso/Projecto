@@ -1,18 +1,48 @@
 $(function(){
+    $("#boton_inicio").css("visibility","hidden");
+	//SI PULSO BOTON_INICIO_SESION
 	$("#boton_inicio_sesion").on("click",function(){
 		$("#menu").css("visibility","hidden");
-		$("#inicio_sesion").css({"visibility":"visible",
-									"position":"fixed",
-									"width":"100%",
-									"height":"100%",
-									"top":"218px"});
+		$("#inicio_sesion").css({
+			"visibility":"visible",
+			"position":"fixed",
+			"width":"100%",
+			"height":"100%",
+			"top":"218px"
+		});
+        $("#boton_inicio").css({
+            "visibility":"visible",
+            "position":"fixed",
+            "top":"45%",
+            "left":"80%",
+            "z-index":"0"
+        });
+    //SI PULSO BOTON_REGISTRO
 	});
     $("#boton_registro").on("click",function(){
         	$("#menu").css("visibility","hidden");
-        $("#registro").css({"visibility":"visible",
+        $("#registro").css({
+			"display":"null",
+			"visibility":"visible",
             "position":"fixed",
             "width":"100%",
             "height":"100%",
-            "top":"218px"});
+            "top":"218px"
+        });
+        $("#boton_inicio").css({
+			"visibility":"visible",
+			"position":"fixed",
+			"top":"45%",
+			"left":"80%",
+			"z-index":"0"
+		})
+    });
+    //SI PULSO BOTON_INICIO
+    $("#boton_inicio").on("click",function(){
+        $("#menu").css("visibility","visible");
+        $(this).css({
+			"top":"60%",
+			"left":"47%"
+		})
     });
 });
