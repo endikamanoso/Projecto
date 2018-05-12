@@ -13,9 +13,8 @@ $(function(){
         $("#boton_inicio").css({
             "visibility":"visible",
             "position":"fixed",
-            "top":"45%",
-            "left":"80%",
-            "z-index":"0"
+            "top":"17%",
+            "left":"47%"
         });
     //SI PULSO BOTON_REGISTRO
 	});
@@ -32,17 +31,15 @@ $(function(){
         $("#boton_inicio").css({
 			"visibility":"visible",
 			"position":"fixed",
-			"top":"45%",
-			"left":"80%",
-			"z-index":"0"
+			"top":"17%",
+			"left":"47%"
 		})
     });
     //SI PULSO BOTON_INICIO
     $("#boton_inicio").on("click",function(){
         $("#menu").css("visibility","visible");
-        $(this).css({
-			"top":"60%",
-			"left":"47%"
-		})
+        $(this).css("visibility","hidden");
+        $("#registro").css("visibility","hidden");
+        $("#inicio_sesion").css("visibility","hidden");
     });
 });
