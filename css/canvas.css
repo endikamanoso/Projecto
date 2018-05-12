@@ -1,0 +1,23 @@
+body{
+}
+#container{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background-image: url("../img/grid canvas.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid black;
+}
+
+button{
+    position: fixed;
+}
+#boton-1{
+    top: 350px;
+    left: 500px;
+}
+#boton-2{
+    top: 350px;
+    right: 800px;
+}
