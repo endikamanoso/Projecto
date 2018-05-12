@@ -1,5 +1,18 @@
 $(function(){
-	$("#logueo").on("toggle",function(){
-		console.log("siiiiiiiiiiiiiii")
-	})
-})
+	$("#boton_inicio_sesion").on("click",function(){
+		$("#menu").css("visibility","hidden");
+		$("#inicio_sesion").css({"visibility":"visible",
+									"position":"fixed",
+									"width":"100%",
+									"height":"100%",
+									"top":"218px"});
+	});
+    $("#boton_registro").on("click",function(){
+        	$("#menu").css("visibility","hidden");
+        $("#registro").css({"visibility":"visible",
+            "position":"fixed",
+            "width":"100%",
+            "height":"100%",
+            "top":"218px"});
+    });
+});

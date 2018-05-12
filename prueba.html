@@ -10,47 +10,61 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-<div class="jumbotron text-center">
-    <div class="container">
-        <h1>ENDIBLOG</h1>
-        <p>El proyecto de Endika que no dejará indiferente a nadie</p>
-    </div>
-</div>
-
-<div id="central" class="container-fluid">
-    <div class="row">
-        <div id="inicio_sesion" class="col-md-6 text-center border-dark">
-            <br><br><br><br>
-            <h2>Inicia sesión</h2><br>
-            <form action="" class="form-group">
-                <input type="text" class="form-control-lg" placeholder="Nombre de usuario o email"><br><br>
-                <input type="password" class="form-control-lg" placeholder="Contraseña"><br><br><br><br><br>
-                <button class="btn btn-lg btn-primary">Validar</button>
-                <br><br>
-            </form>
-        </div>
-        <div id="resgistro" class="col-md-6 text-center">
-            <br><br><br><br>
-            <h2>Regístrate aquí</h2><br>
-            <form action="" class="form-group">
-                <input type="text" class="form-control-lg col-lg-5 col-xs-12" placeholder="Nombre de usuario">
-                <input type="text" class="form-control-lg col-lg-5 col-lg-5" placeholder="Primer apellido"><br><br>
-                <input type="text" class="form-control-lg col-lg-5 col-lg-5" placeholder="Segundo apellido">
-                <input type="date" class="form-control-lg col-lg-5 col-lg-5" placeholder="Fecha de nacimiento"><br><br>
-                <input type="email" class="form-control-lg col-lg-5 col-lg-5 col-lg-5" placeholder="Correo electrónico">
-                <input type="text" class="form-control-lg col-lg-5" placeholder="Login"><br><br>
-                <input type="password" class="form-control-lg col-lg-5" placeholder="Contraseña">
-                <button id="validar" class="btn btn-lg btn-primary col-lg-5">Validar</button>
-                <br><br>
-            </form>
-
+<div id="total">
+    <div class="jumbotron text-center rounded-0">
+        <div class="container">
+            <h1>ENDIBLOG</h1>
+            <p>Alea jacta est</p>
         </div>
     </div>
-
+    <div id="central" class="container-fluid">
+        <div class="row">
+            <div id="inicio_sesion" class="col-md-6 text-center">
+                <br><br><br><br>
+                <h2>Inicia sesión</h2><br>
+                <form action="" class="form-group">
+                    <input type="text" class="form-control-lg" placeholder="Nombre de usuario o email"><br><br>
+                    <input type="password" class="form-control-lg" placeholder="Contraseña"><br><br><br><br><br>
+                    <button id="validar_sesion" class="btn btn-lg btn-primary">Validar</button>
+                    <br><br>
+                </form>
+            </div>
+            <div id="registro" class="col-md-6 text-center">
+                <h2>Regístrate aquí</h2><br>
+                <form action="" class="form-group">
+                    <input type="text" class="form-control-lg col-lg-5 col-xs-12" placeholder="Nombre de usuario">
+                    <input type="text" class="form-control-lg col-lg-5 col-lg-5" placeholder="Primer apellido">
+                    <input type="text" class="form-control-lg col-lg-5 col-lg-5" placeholder="Segundo apellido">
+                    <input type="email" class="form-control-lg col-lg-5 col-lg-5 col-lg-5"
+                           placeholder="Correo electrónico">
+                    <input type="text" class="form-control-lg col-lg-5" placeholder="Login">
+                    <input type="password" class="form-control-lg col-lg-5" placeholder="Contraseña"><br><br>
+                    <button id="validar_registro" class="btn btn-lg btn-primary col-lg-5">Validar</button>
+                    <br><br>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="menu" class="container-fluid text-center">
+        <div class="row">
+            <div class="col-6">
+                <button id="boton_inicio_sesion" class="btn btn-primary btn-lg">INICIAR SESIÓN</button>
+            </div>
+            <div class="col-6">
+                <button id="boton_registro" class="btn btn-primary btn-lg">INICIAR REGISTRO</button>
+            </div>
+        </div>
+    </div>
 </div>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="js//jquery-3.2.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script src="js/animaciones.js"></script>
 </body>
 </html>
