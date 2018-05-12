@@ -21,17 +21,18 @@ function pide_datos() {
         url: "json.php"
     });
     jqXHR.done(function (data) {
-        var valor_plazas=null;
-       for (i=1;i<=8;i++){
-        if (data[i]=="ocupado"){
+        var j=null;
+        for (i=0;i<=7;i++){
+            j=i+1;
+            if (data.plazas.plaza[i].modo_plaza==1){
 
-            $('#'+i).css("color","red")
+                $('#'+j).css("color","red")
+            }
+            else $('#'+j).css("color","green")
         }
-        else $('#'+i).css("color","green")
-       }
     })
 };
 
 $(function () {
-        intervalo_ajax=setInterval(pide_datos,5000)
+    intervalo_ajax=setInterval(pide_datos,5000)
 });
