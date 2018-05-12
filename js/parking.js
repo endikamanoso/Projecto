@@ -1,10 +1,10 @@
 
 var intervalo_plaza = null;
 var intervalo_ajax = null;
+var valor_plazas=null;
 
 
-
-function cambiaColor() {
+/*function cambiaColor() {
     if ($('#01').hasClass('plaza-libre') || $('#01').hasClass('intermitente1')) {
         $('#01').removeClass('plaza-libre');
         $('#01').removeClass('intermitente1');
@@ -13,7 +13,7 @@ function cambiaColor() {
         $('#01').removeClass('intermitente2');
         $('#01').addClass('intermitente1');
     }
-};
+};*/
 
 
 function pide_datos() {
@@ -21,15 +21,16 @@ function pide_datos() {
         url: "json.php"
     });
     jqXHR.done(function (data) {
-        console.log(data.valor);
-        clearInterval(intervalo_plaza);
-        if (data.valor = 1) {
-            intervalo_plaza = setInterval(cambiaColor, 500);
-        };
-    });
-}
+        var valor_plazas=null;
+       for (i=1;i<=8;i++){
+        if (data[i]=="ocupado"){
 
-
+            $('#'+i).css("color","red")
+        }
+        else $('#'+i).css("color","green")
+       }
+    })
+};
 
 $(function () {
         intervalo_ajax=setInterval(pide_datos,5000)
