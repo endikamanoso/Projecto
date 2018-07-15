@@ -30,3 +30,5 @@
   INSERT INTO plazas VALUES (NULL ,0,1);
 
 COMMIT ;
+
+  INSERT INTO parkings VALUES (NULL ,'ejemplo2','ejemplo2');

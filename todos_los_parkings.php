@@ -35,11 +35,11 @@
     </div>
     <div id="central" class="col-12">
                 <h2>SELECCIONA EL PARKING</h2><br>
-                <form action="//localhost/projecto/inicio_sesion.php" method="post">
+                <form action="//localhost/projecto/lanza_parking.php" method="get">
                 <div class="row">
   <div class="container-fluid col-4">
     <div class="form-group">
-      <select class="selectpicker form-control">
+      <select class="selectpicker form-control" name="nombre">
         <option selected="true" disabled="disabled">Escoja un parking</option>
 
 
