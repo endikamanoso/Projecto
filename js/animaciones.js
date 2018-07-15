@@ -14,7 +14,8 @@ $(function(){
             "visibility":"visible",
             "position":"fixed",
             "top":"17%",
-            "left":"47%"
+            "left":"40%",
+            "width":"20%"
         });
     //SI PULSO BOTON_REGISTRO
 	});

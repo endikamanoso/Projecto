@@ -16,7 +16,7 @@ var valor_plazas=null;
 };*/
 
 
-function pide_datos() {
+function pide_datos() {             //creo una funcion "pide_datos" que coge los datos de json.php
     var jqXHR = $.ajax({
         url: "json.php"
     });
