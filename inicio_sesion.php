@@ -29,7 +29,7 @@ if (isset($_POST["login"]) && isset($_POST["pass"])){
         }
         else echo "no hay resultado .".$mysqli->error."nº".$mysqli->errno;
         if ($correcto==1){
-            header("location:http://localhost/projecto/seleccion_parkings.php");
+            header("location:http://localhost/projecto/todos_los_parkings.php");
         }
         else     header("location:http://169.254.89.30:3000/index.html");
       }
