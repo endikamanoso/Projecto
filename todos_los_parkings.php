@@ -35,11 +35,11 @@
     </div>
     <div id="central" class="col-12">
                 <h2>SELECCIONA EL PARKING</h2><br>
-                <form action="//localhost/projecto/lanza_parking.php" method="get">
+                <form action="http://localhost/projecto/lanza_parking.php" method="POST">
                 <div class="row">
   <div class="container-fluid col-4">
     <div class="form-group">
-      <select class="selectpicker form-control" name="nombre">
+      <select class="selectpicker form-control" name="nombre" id="nombre_parking">
         <option selected="true" disabled="disabled">Escoja un parking</option>
 
 
@@ -65,13 +65,14 @@
             
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
       integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<script src="js//jquery-3.2.1.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
         integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
         crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
         integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
+<!--<script src="js/validar_parkings.js"></script>-->
 </body>
 </html>
 

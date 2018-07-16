@@ -32,7 +32,7 @@ if (isset($_POST["login"]) && isset($_POST["pass"])){
             header("location:http://localhost/projecto/seleccion_parkings.php");
         }
         else     header("location:http://169.254.89.30:3000/index.html");
-    }
+      }
 }
 
 ?>
