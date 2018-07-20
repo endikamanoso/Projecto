@@ -3,8 +3,6 @@ body{
 }
 .jumbotron{
 	background-image: url("../img/fondo azul.png");
-	background-repeat: no-repeat;
-	background-size: cover;
 	color: white;
 }
 #inicio_sesion{
@@ -45,7 +43,4 @@ body{
 	background-image: url("../img/fondo_gris.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-#boton_inicio{
-
 }

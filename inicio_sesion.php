@@ -15,7 +15,6 @@ if (isset($_POST["login"]) && isset($_POST["pass"])){
         echo "error en la conexion";
     }
     else {
-
         $query = "select COUNT(*) AS numero
                 from parking.usuarios
                 WHERE login='$login' AND password='$password'";

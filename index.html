@@ -8,22 +8,24 @@
     <meta name="author" content="">
     <title>Proyecto Endika</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 </head>
 <body>
 <div id="total">
-    <div class="jumbotron text-center rounded-0">
-        <div class="container">
-            <h1>ENDIBLOG</h1>
+    <div class="jumbotron text-center">
+                   <h1>ENDIBLOG</h1>
             <p>Alea jacta est</p>
-        </div>
+
     </div>
     <div id="central" class="container-fluid">
         <div class="row">
             <div id="inicio_sesion"> <!--class="col-md-6 text-center"-->
                 <br><br><br><br>
                 <h2>INICIA SESIÓN</h2><br>
-                <form action="http://localhost/projecto/inicio_sesion.php" class="form-group" method="post">
-                    <input type="text" class="form-control-lg " placeholder="Nombre de usuario" name="login"><br><br>
+                <form action="http://localhost/projecto/inicio_sesion.php" method="post">
+                    <span><i class="fas fa-user"></i></span>
+                    <input type="text" class="form-control-lg " placeholder="Nombre de usuario" name="login"><br>
+                    <i class="fas fa-unlock"></i>
                     <input type="password" class="form-control-lg" placeholder="Contraseña" name="pass"><br><br><br><br><br>
                     <button id="validar_sesion" class="btn btn-lg btn-primary">Validar</button>
                     <br><br>
