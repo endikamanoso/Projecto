@@ -1,25 +1,10 @@
-
-
-
-.plaza-libre{
-	border: solid blue 4px;
-	background-color: darkblue;
-	height: 10%;
-	color: green;
-	font-size: 3em;
+/*
+.poli	{
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
-.intermitente1 {
-	border: solid blue 4px;
-	background-color: darkblue;
-	height: 10%;
-	color: white;
-	font-size: 3em;
-}
-.intermitente2{
-	border: solid red 4px;
-	background-color: black;
-	height: 10%;
-	color: red;
-	font-size: 3em;
+.oculto	{
+	visibility: hidden;
 }

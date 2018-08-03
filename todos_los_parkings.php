@@ -35,7 +35,7 @@
     </div>
     <br><br>
     <div class="col-12 text-center">
-        <form class="form-signin" action="http://localhost/projecto/inicio_sesion.php" method="post">
+        <form class="form-signin" action="http://localhost/projecto/lanza_parking.php" method="post">
   <div class="container-fluid col-4">
     <div class="form-group">
       <select class="selectpicker form-control" name="nombre" id="nombre_parking">
